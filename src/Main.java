@@ -25,12 +25,19 @@ public class Main {
         }
         int salary = 29000;
         int total = 0;
-        for (int i = 0; i < 12; i ++) {
+        for (int i = 0; i < 12; i++) {
             total = total + salary;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей ");
         }
         System.out.println("Итого всего " + total + " рублей накоплений ");
 
+        int salary1 = 29000;
+        int total1 = 0;
+        for (int i = 0; i < 12; i++) {
+            total1 = total1 + total1 / 100;
+            total1 = total1 + salary1;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total1 + " реблей ");
 
+        }
     }
 }
